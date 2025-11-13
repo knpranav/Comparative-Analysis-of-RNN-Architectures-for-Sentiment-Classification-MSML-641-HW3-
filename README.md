@@ -63,9 +63,17 @@ To set up the environment:
     
     File/Directory	Description
     data/	Empty directory reserved for potential external datasets (required submission component)
+    
     src/	Contains all project logic
+    
     results/metrics.csv	Raw Output File: Full performance history (Loss, F1, Accuracy, Time) for every epoch of all 14 experiments
+    
     results/summarymetrics.csv	Final Table: Contains the single best (last epoch) metrics for each of the 14 unique configurations
+    
     results/plots/accf1vsseqlen.png	Plot comparing Accuracy/F1 across the three Sequence Lengths
+    
     results/plots/lossvsepochs.png	Plot comparing Validation Loss vs. Epochs for the best and worst performing models
+    
     msml641hw3report.pdf	The final project report containing analysis, discussion, and conclusions
+    
+
