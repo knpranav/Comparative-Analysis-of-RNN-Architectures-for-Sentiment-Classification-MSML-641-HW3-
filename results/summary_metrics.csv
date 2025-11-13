@@ -1,0 +1,15 @@
+Model,Activation,Optimizer,Seq Length,Grad_Clipping,Accuracy,F1,Epoch Time (s)
+RNN,sigmoid,Adam,25,No,0.6835,0.6833,23.49
+RNN,relu,Adam,50,No,0.7482,0.7482,28.98
+RNN,tanh,SGD,50,No,0.5655,0.5634,23.92
+LSTM,tanh,Adam,50,No,0.751,0.7507,62.36
+LSTM,sigmoid,Adam,50,No,0.7612,0.7611,64.02
+LSTM,relu,RMSProp,50,No,0.7493,0.7465,56.03
+Bidirectional LSTM,tanh,RMSProp,100,No,0.8149,0.8145,176.69
+LSTM,relu,SGD,50,No,0.5,0.3333,55.78
+Bidirectional LSTM,relu,Adam,50,No,0.6729,0.6693,84.32
+RNN,tanh,SGD,50,Yes,0.5413,0.5267,25.15
+LSTM,relu,Adam,50,No,0.6945,0.692,65.44
+LSTM,relu,Adam,25,No,0.701,0.7009,35.22
+LSTM,relu,Adam,100,No,0.6254,0.6253,125.74
+LSTM,relu,Adam,50,Yes,0.7412,0.7412,77.4
